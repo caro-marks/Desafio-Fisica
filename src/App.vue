@@ -18,16 +18,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent } from "vue";
 import {
   HomeTemplate,
   ContentTemplate,
   ContactTemplate,
-} from '@/components/templates'
-import { Footer } from '@/components/organisms'
+} from "@/components/templates";
+import { Footer } from "@/components/organisms";
 
 export default defineComponent({
-  name: 'App',
+  name: "App",
   components: {
     Home: HomeTemplate,
     Content: ContentTemplate,
@@ -37,10 +37,10 @@ export default defineComponent({
 
   data() {
     return {
-      current: 'Home',
-    }
+      current: "Home",
+    };
   },
-})
+});
 </script>
 
 <style lang="scss">
